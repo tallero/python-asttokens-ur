@@ -1,0 +1,19 @@
+pkgbase = python-asttokens
+	pkgdesc = Get the currently executing AST node of a frame, and other information
+	pkgver = 2.4.1
+	pkgrel = 1
+	url = https://github.com/gristlabs/asttokens
+	arch = any
+	license = Apache
+	checkdepends = python-astroid
+	checkdepends = python-pytest
+	makedepends = git
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools-scm
+	makedepends = python-wheel
+	depends = python-six
+	source = git+https://github.com/gristlabs/asttokens.git#tag=v2.4.1
+	b2sums = SKIP
+
+pkgname = python-asttokens
