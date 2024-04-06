@@ -3,11 +3,11 @@
 pkgname=python-asttokens
 _name=${pkgname#python-}
 pkgver=2.4.1
-pkgrel=1
+pkgrel=2
 pkgdesc='Get the currently executing AST node of a frame, and other information'
 arch=('any')
 url=https://github.com/gristlabs/asttokens
-license=('Apache')
+license=('Apache-2.0')
 depends=('python-six')
 makedepends=(
   'git'
