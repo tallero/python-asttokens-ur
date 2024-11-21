@@ -1,7 +1,7 @@
 pkgbase = python-asttokens
 	pkgdesc = Get the currently executing AST node of a frame, and other information
 	pkgver = 2.4.1
-	pkgrel = 2
+	pkgrel = 3
 	url = https://github.com/gristlabs/asttokens
 	arch = any
 	license = Apache-2.0
