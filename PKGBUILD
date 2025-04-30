@@ -112,7 +112,7 @@ package() {
         "import site; print(site.getsitepackages()[0])")"
   install \
     -d \
-    "${pkgdi}/usr/share/licenses/${pkgname}"
+    "${pkgdir}/usr/share/licenses/${pkgname}"
   ln \
     -s \
     "${_site_packages}/${_pkg}-${pkgver}.dist-info/LICENSE" \
